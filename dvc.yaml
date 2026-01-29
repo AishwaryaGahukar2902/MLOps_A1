@@ -1,0 +1,6 @@
+stages:
+  test:
+    cmd: python test.py
+    deps:
+    - dvc_data\MentalHealthDataset.csv
+    - test.py
