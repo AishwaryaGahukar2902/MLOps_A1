@@ -1,0 +1,13 @@
+schema: '2.0'
+stages:
+  test:
+    cmd: python test.py
+    deps:
+    - path: dvc_data\MentalHealthDataset.csv
+      hash: md5
+      md5: a14af84a635a56e3b3d384a78219aac2
+      size: 31098777
+    - path: test.py
+      hash: md5
+      md5: 529f8df875dea41a14207fa147fb413c
+      size: 116
